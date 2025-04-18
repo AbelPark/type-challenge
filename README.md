@@ -24,14 +24,7 @@ npm run generate
 - `utils/`: 테스트에 사용되는 유틸리티 타입
 - `scripts/`: 스크립트 파일
 
-```typescript
-// 절대 경로로 utils 가져오기
-import { Equal, Expect } from '@/utils';
-```
-
 ## 코드 검사 (ESLint)
-
-이 프로젝트는 ESLint를 사용하여 코드 품질을 유지합니다. 다음 명령으로 코드 검사를 실행할 수 있습니다:
 
 ```bash
 # 코드 검사 실행
